@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/drawer_web"
+        android:icon="@drawable/ic_web_black_24dp"
+        android:title="Go to Application's Website" />
+    <item
+        android:id="@+id/drawer_bmi"
+        android:title="Calculate Bmi" />
+    <item
+        android:id="@+id/launchscan"
+        android:title="Scan barcode"
+        android:icon="@drawable/ic_camera_alt_black_24dp"
+
+        />
+
+    <item android:title="Log Out"
+        android:id="@+id/logout"
+
+        >
+
+    </item>
+
+
+
+
+    <item android:title="Communication">
+
+        <menu>
+            <item android:title="Customer Service"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:id="@+id/drawer_service"/>
+            <item android:icon="@drawable/ic_phone_android_black_24dp"
+                android:title="Feedback"
+                android:id="@+id/drawer_feeds"/>
+
+        </menu>
+
+    </item>
+</menu>

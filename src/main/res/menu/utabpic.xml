@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Choose from gallery"
+        android:id="@+id/upchoosetabpicfrmglry"></item>
+
+    <item android:title="Capture Photo"
+        android:id="@+id/upcapturetabpic"></item>
+
+    <item android:title="Remove Photo"
+        android:id="@+id/upremovetabpic"></item>
+
+</menu>

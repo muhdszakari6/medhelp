@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewPres"
+    android:paddingTop ="55dp"
+    android:paddingBottom="55dp"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            style="@style/Splashtext"
+            android:text="Prescriptions"
+            android:layout_width="match_parent"
+            android:textAlignment="textStart"
+            />
+        <ListView
+
+            android:layout_width="match_parent"
+            android:id="@android:id/list"
+            android:layout_height="wrap_content">
+
+        </ListView>
+
+    </LinearLayout>
+
+
+</FrameLayout>

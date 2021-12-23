@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="55dp"
+    android:paddingBottom="55dp"
+    tools:context=".CustomerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="FAQs"
+            style="@style/Splashtext"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to use Application?"
+            style="@style/profilelabel1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="This application main goal is to give the user a platform to store prescriptions information,doctors appointment and tablets reminder."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to save a Prescription"
+            style="@style/profilelabel1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="After a user successfully signs up and logs in.The user will see a dashboard.In the dashboard there are five components.One of them is Add Prescription ,to save a prescription a user clicks on that component"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to View Saved Prescriptions?"
+            style="@style/profilelabel1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="To view a Saved note,you click on the view prescription component on the dashboard.Alternatively a user gets redirected to the list of saved prescriptions after successfully saving a prescription."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to create a Doctors Appointment"
+            style="@style/profilelabel1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="To create a Doctors Appointment,a user clicks on the create Doctors appointment component on the application's dashboard.Already created appointments are at the bottom of the create doctors appointment form"
+            />
+
+        <EditText
+            style="@style/feedbackedittext"
+            android:hint="Send a question"
+            android:id="@+id/customerfaq"
+
+            />
+        <Button
+            android:id="@+id/sendquestion"
+            style="@style/appbtn"
+            android:text="Send Question"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

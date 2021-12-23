@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="70dp"
+    android:paddingTop="55dp"
+    tools:context=".BmiFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:layout_marginBottom="0dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="30dp"
+            android:paddingBottom="0dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <TextView
+                style="@style/bestlayouttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BMI = "
+                android:textColor="@color/colorPrimary"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/bmivalue"
+                    style="@style/bestlayouttxt"
+                    android:text="null"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/bmianalysis"
+                style="@style/bestlayouttxt"
+                android:padding="10dp"
+                android:text="null"
+                android:textSize="25dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary">
+
+            </View>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_below="@id/layout1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:paddingTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingRight="55dp"
+                    android:paddingTop="10dp"
+                    android:text="Weight"
+                    android:textSize="20dp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/bmiweight"
+                    android:hint="in Kg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:paddingTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingRight="55dp"
+                    android:paddingTop="10dp"
+                    android:text="Height"
+                    android:textSize="20dp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/bmiheight"
+                    android:hint="in Metres"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/calbmi"
+                android:text="Calculate"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                android:background="@drawable/appbtn"
+
+                style="@style/appbtn"
+                />
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</ScrollView>

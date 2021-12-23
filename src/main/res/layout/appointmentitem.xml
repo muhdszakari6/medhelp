@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="5dp"
+        android:foreground="?attr/selectableItemBackground"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="375dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/bestlayouttxt"
+                        android:layout_width="wrap_content"
+                        android:paddingEnd="0dp"
+                        android:text="Hospital: "
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/hositemlocation"
+                        style="@style/bestlayouttxt"
+                        android:layout_width="wrap_content"
+                        android:paddingLeft="0dp"
+
+                        android:paddingStart="0dp"
+                        android:text="Garkuwa" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/bestlayouttxt"
+                        android:layout_width="wrap_content"
+                        android:paddingEnd="0dp"
+                        android:text="Complain: "
+
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/hositemcomplain"
+                        style="@style/bestlayouttxt"
+                        android:layout_width="wrap_content"
+                        android:paddingStart="0dp"
+
+                        android:text="Severe Headache" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/bestlayouttxt"
+                        android:layout_width="wrap_content"
+                        android:paddingEnd="0dp"
+                        android:text="Date:"
+
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/hositemdate"
+                        style="@style/bestlayouttxt"
+                        android:layout_width="wrap_content"
+                        android:paddingStart="5dp"
+
+                        android:text="01/01/99" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/bestlayouttxt"
+                        android:layout_width="wrap_content"
+                        android:paddingEnd="0dp"
+                        android:text="Time: "
+
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/hositemtime"
+                        style="@style/bestlayouttxt"
+                        android:layout_width="wrap_content"
+                        android:text="2:30"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

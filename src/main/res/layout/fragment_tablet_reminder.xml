@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="65dp"
+    tools:context=".TabletReminder">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Tablet name:"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/remtabletname"
+            android:layout_width="344dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingEnd="20dp"
+            android:drawableStart="@drawable/ic_title_black_24dp"
+
+
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingStart="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Treatment:"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/remtablettreatment"
+            android:layout_width="344dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:drawableStart="@drawable/ic_format_size_black_24dp"
+
+            android:paddingEnd="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingStart="20dp" />
+
+        <Button
+            android:id="@+id/savetabletrem"
+            style="@style/appbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Add Tablet Reminder"
+            />
+
+    </LinearLayout>
+</ScrollView>

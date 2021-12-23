@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="View"
+        android:id="@+id/viewfinpresitem"
+
+        >
+
+    </item>
+    <item android:title="Send to contact"
+        android:id="@+id/sendfinpres"
+
+        >
+
+    </item>
+    <item
+        android:id="@+id/deletefinpres"
+        android:title="Delete"
+
+        >
+
+    </item>
+
+</menu>
